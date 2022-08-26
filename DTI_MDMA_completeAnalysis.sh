@@ -41,10 +41,7 @@ conda install -c mrtrix3 mrtrix3
 # - used to extract peaks of spherical harmonic function in each voxel
 
 # get folder names of all participants
-all_subjects=`ls /mnt/share/qsiprep_output/qsiprep/`$
-
-# get output folder
-tractseg_output_dir="tractseg_output"
+all_subjects=`ls /mnt/share/qsiprep_output/qsiprep/`
 
 for subj in $all_subjects
 do
